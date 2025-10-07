@@ -102,8 +102,8 @@ Ran 8 tests in 0.001s
 OK
 
 
-# Gerar um relatório no terminal
-coverage report
+## Gerar um relatório no terminal
+```coverage report```
 
 ---
 
