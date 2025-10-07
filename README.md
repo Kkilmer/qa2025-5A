@@ -31,12 +31,10 @@ A aplicação Calculadora de IMC (Índice de Massa Corporal) recebe o peso (em k
 
      > "Peso e altura devem ser maiores que zero."
 
-```
-
 # Calculadora de IMC (Índice de Massa Corporal)
 
-Aplicação simples em **Python** para cálculo e classificação do **IMC**, conforme os padrões da **OMS**.  
-O projeto foi desenvolvido com foco em **clareza e testabilidade**, incluindo testes unitários com o módulo `unittest`.
+Aplicação em **Python** para cálculo e classificação do **IMC**, conforme os padrões da **OMS**.  
+O projeto foi feito para clareza e facilidade, incluindo testes unitários com o módulo `unittest`.
 
 ---
 
@@ -75,7 +73,7 @@ calculadora-imc/
      > "Peso e altura devem ser maiores que zero."
 
 
-```
+
 
 ## Executando os Testes Unitários
 
@@ -100,7 +98,7 @@ testValoresInvalidos ... ok
 Ran 8 tests in 0.001s
 
 OK
-
+```
 
 ## Gerar um relatório no terminal
 ```coverage report```
