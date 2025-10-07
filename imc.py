@@ -1,5 +1,3 @@
-# imc.py
-
 def calcular_imc(peso: float, altura: float) -> float:
     if peso <= 0 or altura <= 0:
         raise ValueError("Peso e altura devem ser maiores que zero.")
@@ -18,3 +16,7 @@ def classificar_imc(imc: float) -> str:
         return "Obesidade grau 2"
     else:
         return "Obesidade grau 3"
+
+imc = calcular_imc(70, 1.75)
+print("IMC:", imc)
+print("Classificação:", classificar_imc(imc))
